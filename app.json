@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Boilerplate Giba",
+    "slug": "boilerplategiba",
+    "scheme": "boilerplategiba",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#191A1F"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.boilerplategiba.app",
+      "buildNumber": "0.0.1"
+    },
+    "android": {
+      "package": "com.boilerplategiba.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#191A1F"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Boilerplate Giba is a React Native App."
+  }
+}
